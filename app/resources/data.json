@@ -1,0 +1,23 @@
+[
+    {
+        "id":"skills",
+        "skills":[
+            {
+                "title":"Python",
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/python.png"
+            },
+            {
+                "title":"Java",
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/java.png"
+            },
+            {
+                "title":"Flutter",
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/flutter.jpg"
+            },
+            {
+                "title":"NextJS",
+                "img": "https://raw.githubusercontent.com/Abhik555/Portfolio-Development/master/app/resources/images/nextjs.jpeg"
+            }
+        ]
+    }
+]
