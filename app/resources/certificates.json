@@ -4,5 +4,11 @@
         "title":"Flutter & Dart",
         "url": "https://www.udemy.com/certificate/UC-9dfc697d-157e-497e-9324-623c50001898/",
         "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-9dfc697d-157e-497e-9324-623c50001898.jpg?v=1705763716000"
+    },
+    {
+        "id":2,
+        "title":"Artificial Intelligence A-Z",
+        "url": "https://www.udemy.com/certificate/UC-3149a37f-83e6-4a41-a011-4dc5d44cb6a2/",
+        "img": "https://udemy-certificate.s3.amazonaws.com/image/UC-3149a37f-83e6-4a41-a011-4dc5d44cb6a2.jpg?v=1721229518000"
     }
 ]
