@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Jul 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "Artificial Intelligence A-Z",
+        "url": "https://www.udemy.com/certificate/UC-3149a37f-83e6-4a41-a011-4dc5d44cb6a2/",
+        "imgUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-3149a37f-83e6-4a41-a011-4dc5d44cb6a2.jpg?v=1721229518000"
+      }
+    ]
+  },
+  {
+    "title": "Jan 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "Flutter and Dart Fundamentals",
+        "url": "https://www.udemy.com/certificate/UC-9dfc697d-157e-497e-9324-623c50001898/",
+        "imgUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-9dfc697d-157e-497e-9324-623c50001898.jpg?v=1705763716000"
+      }
+    ]
+  }
+]

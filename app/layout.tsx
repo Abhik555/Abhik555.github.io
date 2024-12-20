@@ -4,6 +4,10 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import { IconHome ,IconCertificate,IconBrandDatabricks,IconAt } from "@tabler/icons-react";
+import { ModeToggle } from "@/components/ui/thememode_toggle";
+import { GradientMagicButton, ShimmerButton } from "@/components/ui/my-button";
+import Link from "next/link";
+import { Toaster } from "@/components/ui/toaster";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -43,13 +47,13 @@ const links = [
     ),
     href: "/projects",
   },
-  {
-    title: "Contact",
-    icon: (
-      <IconAt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-    ),
-    href: "/contact",
-  },
+  // {
+  //   title: "Contact",
+  //   icon: (
+  //     <IconAt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+  //   ),
+  //   href: "/contact",
+  // },
 ];
 
 export default function RootLayout({
@@ -64,13 +68,22 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
-          <div className="fixed bottom-5 left-0 right-0">
+          <div className="fixed bottom-5 left-0 right-0 z-5">
             <FloatingDock
               items={links}
               desktopClassName="w-fit z-10"
               mobileClassName="w-screen z-10 ml-5"
             />
           </div>
+          {/* <div className="absolute left-4 top-4 h-16 w-16">
+            <ModeToggle />
+          </div> */}
+          <div className="absolute top-4 right-4">
+            <Link href="/cv.pdf" passHref>
+            <ShimmerButton text="Download CV"/>
+            </Link>
+          </div>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
