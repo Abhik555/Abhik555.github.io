@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "isImage": true,
+        "title": "Hand-Gesture-Recognition-System-And-Survey-Application",
+        "description": "A AI/ML based project to develop and deploy various CNN models for hand gesture classification trained on the Hagrid dataset and collect survey data through a companion mobile app. ",
+        "projectUrl": "https://raw.githubusercontent.com/Abhik555/Hand-Gesture-Recognition-System-And-Survey-Application/main/icon.png",
+        "skills": ["Tensorflow", "Python", "CNN"]
+    },
+    {
+        "id": 2,
+        "isImage": false,
+        "title": "Test Project",
+        "description": "This is a test description",
+        "projectUrl": "https://www.google.com",
+        "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 3,
+        "isImage": false,
+        "title": "Test Project",
+        "description": "This is a test description",
+        "projectUrl": "https://www.google.com",
+        "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 4,
+        "isImage": false,
+        "title": "Test Project",
+        "description": "This is a test description",
+        "projectUrl": "https://www.google.com",
+        "skills": ["HTML", "CSS", "JavaScript"]
+    }
+]

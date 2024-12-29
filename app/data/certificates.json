@@ -1,5 +1,44 @@
 [
   {
+    "title": "Dec 2024",
+    "content":[
+      {
+        "id": 1,
+        "title": "Machine Learning Specilization",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/BJFO1YC10XU0",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/mls.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Sep 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "Programming in C++: A Hands-on Introduction",
+        "url": "https://coursera.org/share/ea6a3b6ac42fe7a06757e04bc948911b",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/cpp.jpg"
+      },
+      {
+        "id":2,
+        "title":"Data Structures",
+        "url": "https://www.coursera.org/account/accomplishments/verify/VMNG8RSPNQVM",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/ds.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Aug 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "AI Workflow: Data Analysis and Hypothesis Testing",
+        "url": "https://www.coursera.org/account/accomplishments/verify/C9Z0GNTL1BVK",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/ibm.jpg"
+      }
+    ]
+  },
+  {
     "title": "Jul 2024",
     "content": [
       {

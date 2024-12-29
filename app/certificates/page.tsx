@@ -2,9 +2,16 @@
 import { Timeline } from "@/components/ui/timeline";
 import TimelineContent from "@/components/ui/timeline-content";
 import cert from "../data/certificates.json";
+import { Chakra_Petch } from "next/font/google";
+
+const chakrafont = Chakra_Petch({
+  weight:"400",
+  style:"normal",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function Home() {
-  //console.log(cert);
 
   const data = cert.map((c) => ({
     title: c.title,
@@ -13,17 +20,11 @@ export default function Home() {
     )),
   }));
 
-  // const Data = [
-  //   {
-  //     title:"2020",
-  //     content: (
-  //       <TimelineContent title="Flutter and Dart Fundamentals" url="https://www.udemy.com/certificate/UC-9dfc697d-157e-497e-9324-623c50001898/" imgUrl="https://udemy-certificate.s3.amazonaws.com/image/UC-9dfc697d-157e-497e-9324-623c50001898.jpg?v=1705763716000" />
-  //     ),
-  //   }
-  // ];
-
   return (
-    <main className="flex flex-col items-center justify-center w-screen h-screen bg-white dark:bg-black">
+    <main className="flex flex-col mt-[110px] mb-0 items-center justify-center w-screen h-screen bg-white dark:bg-black">
+      <div className="hidden lg:block w-fit h-fit absolute top-7 text-3xl">
+        <span className={chakrafont.className}>Abhik Ghosh</span>
+      </div>
       <Timeline data={data}></Timeline>
     </main>
   );
