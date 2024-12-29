@@ -11,6 +11,7 @@ interface ProjectComponentCardProps {
   skills: string[];
   link: string;
   isImage: boolean;
+  imglink: string;
 }
 
 const ProjectComponentCard: React.FC<ProjectComponentCardProps> = ({
@@ -19,12 +20,12 @@ const ProjectComponentCard: React.FC<ProjectComponentCardProps> = ({
   skills,
   link,
   isImage,
+  imglink,
 }) => {
-  const url = isImage
-    ? link
-    : "https://api.microlink.io/?url=" +
-      link +
-      "&screenshot=true&meta=false&embed=screenshot.url";
+  const url =
+    "https://api.microlink.io/?url=" +
+    link +
+    "&screenshot=true&meta=false&embed=screenshot.url";
   return (
     <a href={link}>
       <CardContainer className="inter-var h-fit w-auto ">
@@ -38,7 +39,12 @@ const ProjectComponentCard: React.FC<ProjectComponentCardProps> = ({
             </CardItem>
             <div className="flex flex-col md:flex-row lg:flex-row items-stretch justify-between w-auto md:w-[50vw] lg:w-[50vw] h-fit mt-10">
               <CardItem translateZ="80">
-                <Image width="300" height="300" src={url} alt="project image" />
+                <Image
+                  width="300"
+                  height="300"
+                  src={isImage ? imglink : url}
+                  alt="project image"
+                />
               </CardItem>
               {/* <CardItem translateZ="80" className="flex "> */}
               <div className="flex flex-col w-72 md:text-left lg:text-left items-center mt-10">

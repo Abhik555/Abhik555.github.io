@@ -21,6 +21,7 @@ export default function Home() {
           desciption={project.description}
           skills={project.skills}
           link={project.projectUrl}
+          imglink={project.imgurl}
           isImage={project.isImage}
         />
       );

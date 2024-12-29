@@ -2,33 +2,56 @@
     {
         "id": 1,
         "isImage": true,
+        "imgurl": "https://raw.githubusercontent.com/Abhik555/Hand-Gesture-Recognition-System-And-Survey-Application/main/icon.png",
         "title": "Hand-Gesture-Recognition-System-And-Survey-Application",
         "description": "A AI/ML based project to develop and deploy various CNN models for hand gesture classification trained on the Hagrid dataset and collect survey data through a companion mobile app. ",
-        "projectUrl": "https://raw.githubusercontent.com/Abhik555/Hand-Gesture-Recognition-System-And-Survey-Application/main/icon.png",
+        "projectUrl": "https://github.com/Abhik555/Hand-Gesture-Recognition-System-And-Survey-Application",
         "skills": ["Tensorflow", "Python", "CNN"]
     },
     {
         "id": 2,
-        "isImage": false,
-        "title": "Test Project",
-        "description": "This is a test description",
-        "projectUrl": "https://www.google.com",
-        "skills": ["HTML", "CSS", "JavaScript"]
+        "isImage": true,
+        "imgurl": "https://socialify.git.ci/Abhik555/Image-Classification-AI/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark",
+        "title": "Image Classification using Convolutional Neural Networks",
+        "description": "A full stack banking system with frontend and database integration built in java and jsp",
+        "projectUrl": "https://github.com/Abhik555/Image-Classification-AI",
+        "skills": ["Python" , "Tensorflow" , "CNN"]
     },
     {
         "id": 3,
-        "isImage": false,
-        "title": "Test Project",
-        "description": "This is a test description",
-        "projectUrl": "https://www.google.com",
-        "skills": ["HTML", "CSS", "JavaScript"]
+        "isImage": true,
+        "imgurl": "https://socialify.git.ci/Abhik555/Online-Banking-System/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark",
+        "title": "Online Banking System",
+        "description": "A full stack banking system with frontend and database integration built in java and jsp",
+        "projectUrl": "https://github.com/Abhik555/Online-Banking-System/tree/master",
+        "skills": ["Python" , "SMTP"]
     },
     {
         "id": 4,
-        "isImage": false,
-        "title": "Test Project",
-        "description": "This is a test description",
-        "projectUrl": "https://www.google.com",
-        "skills": ["HTML", "CSS", "JavaScript"]
+        "isImage": true,
+        "imgurl": "https://raw.githubusercontent.com/Abhik555/InboxIn/master/InboxIn%20Logo.png",
+        "title": "InboxIn",
+        "description": "An Email Automation Program",
+        "projectUrl": "https://github.com/Abhik555/InboxIn",
+        "skills": ["Python" , "SMTP"]
+    },
+    {
+        "id": 5,
+        "isImage": true,
+        "imgurl": "https://socialify.git.ci/Abhik555/Grocery-Store-Mangement-XII-Project/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto",
+        "title": "Grocery-Store-Mangement",
+        "description": "A School Project to manage a database of a grocery store.",
+        "projectUrl": "https://github.com/Abhik555/Grocery-Store-Mangement-XII-Project/tree/master",
+        "skills": ["Python", "MySQL"]
+    },
+    {
+        "id": 6,
+        "isImage": true,
+        "imgurl": "https://socialify.git.ci/Abhik555/Number-Converter/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark",
+        "title": "Number Base Converter",
+        "description": "Python GUI application to convert numbers from one base to another",
+        "projectUrl": "https://github.com/Abhik555/Number-Converter",
+        "skills": ["Python", "PyQt"]
     }
+    
 ]
