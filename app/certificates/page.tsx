@@ -21,7 +21,7 @@ export default function Home() {
   }));
 
   return (
-    <main className="flex flex-col mt-[110px] mb-0 items-center justify-center w-screen h-screen bg-white dark:bg-black">
+    <main className="flex flex-col mt-[110px] mb-0 items-center justify-center w-[100%] h-screen bg-white dark:bg-black">
       <div className="hidden lg:block w-fit h-fit absolute top-7 text-3xl">
         <span className={chakrafont.className}>Abhik Ghosh</span>
       </div>
