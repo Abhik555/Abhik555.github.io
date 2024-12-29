@@ -2,7 +2,6 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
 import Image from "next/image";
-import { ShimmerButton } from "./my-button";
 import { Badge } from "./badge";
 
 interface ProjectComponentCardProps {
