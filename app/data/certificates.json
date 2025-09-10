@@ -1,7 +1,40 @@
 [
   {
+    "title": "Jul 2025",
+    "content": [
+      {
+        "id": 1,
+        "title": "Generative AI Engineering with LLMs Specialization",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/2B274ZWUVJRD",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/ibmai.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "Jun 2025",
+    "content": [
+      {
+        "id": 1,
+        "title": "Go - The Complete Guide",
+        "url": "https://www.udemy.com/certificate/UC-8db9454a-cd3c-476f-b972-cacaacc325bf/",
+        "imgUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-8db9454a-cd3c-476f-b972-cacaacc325bf.jpg?v=1750088313000"
+      }
+    ]
+  },
+  {
+    "title": "Feb 2025",
+    "content": [
+      {
+        "id": 1,
+        "title": "Introduction to Operating Systems Specilization",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/VGWSCTWX2CV6",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/os.jpeg"
+      }
+    ]
+  },
+  {
     "title": "Dec 2024",
-    "content":[
+    "content": [
       {
         "id": 1,
         "title": "Machine Learning Specilization",
@@ -20,8 +53,8 @@
         "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/cpp.jpg"
       },
       {
-        "id":2,
-        "title":"Data Structures",
+        "id": 2,
+        "title": "Data Structures",
         "url": "https://www.coursera.org/account/accomplishments/verify/VMNG8RSPNQVM",
         "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/ds.jpg"
       }
