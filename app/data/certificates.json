@@ -1,5 +1,16 @@
 [
   {
+    "title": "April 2026",
+    "content": [
+      {
+        "id": 1,
+        "title": "AWS Certified Cloud Practitioner",
+        "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/70a0761290754ee3b6609230d0271b0d",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/aws.jpg"
+      }
+    ]
+  },
+  {
     "title": "Jul 2025",
     "content": [
       {
