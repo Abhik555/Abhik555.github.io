@@ -1,0 +1,65 @@
+[
+    {
+    "id": 1,
+    "isImage": true,
+    "imgurl": "https://socialify.git.ci/Abhik555/Trans-Sketch-GAN---A-Sketch-to-Image-Generator-with-Semantic-Description/image?custom_language=PyTorch&font=JetBrains+Mono&language=1&name=1&owner=1&pattern=Circuit+Board&stargazers=1&theme=Dark",
+    "title": "Trans-SketchGAN — A-Sketch-to-Image-Generator-with-Semantic-Description",
+    "description": "A multi-modal GAN that turns rough face sketches into photorealistic images, steered by natural-language descriptions. Built on PyTorch Lightning and trained on the MM-CelebA-HQ dataset.",
+    "projectUrl": "https://github.com/Abhik555/Trans-Sketch-GAN---A-Sketch-to-Image-Generator-with-Semantic-Description",
+    "skills": ["Pytorch", "FastAPI" , "React"]
+  },
+  {
+    "id": 2,
+    "isImage": true,
+    "imgurl": "https://raw.githubusercontent.com/Abhik555/material-weather/main/assets/icon/weather.png",
+    "title": "Material Weather",
+    "description": "A modern, material design-inspired weather application built with Flutter.",
+    "projectUrl": "https://github.com/Abhik555/material-weather",
+    "skills": ["Dart", "Flutter", "Bloc"]
+  },
+  {
+    "id": 3,
+    "isImage": true,
+    "imgurl": "https://socialify.git.ci/Abhik555/SeriniBot-Your-Caring-Mental-Health-Companion/image?description=1&font=Inter&name=1&owner=1&pattern=Circuit+Board&stargazers=1&theme=Dark",
+    "title": "SeriniBot Your Caring Mental Health Companion",
+    "description": "AI-powered, empathetic support at your fingertips.",
+    "projectUrl": "https://github.com/Abhik555/SeriniBot-Your-Caring-Mental-Health-Companion",
+    "skills": ["FASTAPI", "Python", "REACT" , "Transformers" , "Pytorch"]
+  },
+  {
+    "id": 4,
+    "isImage": true,
+    "imgurl": "https://raw.githubusercontent.com/Abhik555/Hand-Gesture-Recognition-System-And-Survey-Application/main/icon.png",
+    "title": "Hand-Gesture-Recognition-System-And-Survey-Application",
+    "description": "A AI/ML based project to develop and deploy various CNN models for hand gesture classification trained on the Hagrid dataset and collect survey data through a companion mobile app. ",
+    "projectUrl": "https://github.com/Abhik555/Hand-Gesture-Recognition-System-And-Survey-Application",
+    "skills": ["Tensorflow", "Python", "CNN" , "Dart" , "Flutter"]
+  },
+  {
+    "id": 5,
+    "isImage": true,
+    "imgurl": "https://socialify.git.ci/Abhik555/Image-Classification-AI/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark",
+    "title": "Image Classification using Convolutional Neural Networks",
+    "description": "A full stack banking system with frontend and database integration built in java and jsp",
+    "projectUrl": "https://github.com/Abhik555/Image-Classification-AI",
+    "skills": ["Python", "Tensorflow", "CNN"]
+  },
+  {
+    "id": 6,
+    "isImage": true,
+    "imgurl": "https://socialify.git.ci/Abhik555/Online-Banking-System/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Dark",
+    "title": "Online Banking System",
+    "description": "A full stack banking system with frontend and database integration built in java and jsp",
+    "projectUrl": "https://github.com/Abhik555/Online-Banking-System/tree/master",
+    "skills": ["Java", "JSP" , "MYSQL"]
+  },
+  {
+    "id": 7,
+    "isImage": true,
+    "imgurl": "https://raw.githubusercontent.com/Abhik555/InboxIn/master/InboxIn%20Logo.png",
+    "title": "InboxIn",
+    "description": "An Email Automation Program",
+    "projectUrl": "https://github.com/Abhik555/InboxIn",
+    "skills": ["Python", "SMTP"]
+  }
+]

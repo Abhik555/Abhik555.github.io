@@ -1,0 +1,107 @@
+[
+  {
+    "title": "April 2026",
+    "content": [
+      {
+        "id": 1,
+        "title": "AWS Certified Cloud Practitioner",
+        "url": "https://cp.certmetrics.com/amazon/en/public/verify/credential/70a0761290754ee3b6609230d0271b0d",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/aws.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Jul 2025",
+    "content": [
+      {
+        "id": 1,
+        "title": "Generative AI Engineering with LLMs Specialization",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/2B274ZWUVJRD",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/ibmai.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "Jun 2025",
+    "content": [
+      {
+        "id": 1,
+        "title": "Go - The Complete Guide",
+        "url": "https://www.udemy.com/certificate/UC-8db9454a-cd3c-476f-b972-cacaacc325bf/",
+        "imgUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-8db9454a-cd3c-476f-b972-cacaacc325bf.jpg?v=1750088313000"
+      }
+    ]
+  },
+  {
+    "title": "Feb 2025",
+    "content": [
+      {
+        "id": 1,
+        "title": "Introduction to Operating Systems Specilization",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/VGWSCTWX2CV6",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/os.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "Dec 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "Machine Learning Specilization",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/BJFO1YC10XU0",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/mls.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Sep 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "Programming in C++: A Hands-on Introduction",
+        "url": "https://coursera.org/share/ea6a3b6ac42fe7a06757e04bc948911b",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/cpp.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Data Structures",
+        "url": "https://www.coursera.org/account/accomplishments/verify/VMNG8RSPNQVM",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/ds.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Aug 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "AI Workflow: Data Analysis and Hypothesis Testing",
+        "url": "https://www.coursera.org/account/accomplishments/verify/C9Z0GNTL1BVK",
+        "imgUrl": "https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/images/ibm.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Jul 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "Artificial Intelligence A-Z",
+        "url": "https://www.udemy.com/certificate/UC-3149a37f-83e6-4a41-a011-4dc5d44cb6a2/",
+        "imgUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-3149a37f-83e6-4a41-a011-4dc5d44cb6a2.jpg?v=1721229518000"
+      }
+    ]
+  },
+  {
+    "title": "Jan 2024",
+    "content": [
+      {
+        "id": 1,
+        "title": "Flutter and Dart Fundamentals",
+        "url": "https://www.udemy.com/certificate/UC-9dfc697d-157e-497e-9324-623c50001898/",
+        "imgUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-9dfc697d-157e-497e-9324-623c50001898.jpg?v=1705763716000"
+      }
+    ]
+  }
+]

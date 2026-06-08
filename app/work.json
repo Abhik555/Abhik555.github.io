@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Jun 2026 - Present",
+    "content": [
+      {
+        "id": 1,
+        "company": "Appiness Interactive",
+        "role": "AI/ML Intern",
+        "location": "Bengaluru, Karnataka, India",
+        "type": "On-site",
+        "duration": "6 mo",
+        "url": "https://appinessworld.com",
+        "imgUrl": "/experience/appiness.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Jun 2024 - Jul 2024",
+    "content": [
+      {
+        "id": 1,
+        "company": "EXTION INFOTECH",
+        "role": "Artificial Intelligence Intern",
+        "location": "Remote",
+        "type": "Internship",
+        "duration": "2 mos",
+        "url": "https://extioninfotech.com",
+        "imgUrl": "/experience/extion.jpg"
+      }
+    ]
+  }
+]
