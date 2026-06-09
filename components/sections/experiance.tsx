@@ -45,26 +45,26 @@ export default function ExperianceSection() {
                       />
                     </div>
 
-                    <div className="flex-1">
-                      <h3 className="text-xl font-semibold text-white">
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-xl font-semibold text-white break-words">
                         {job.role}
                       </h3>
 
-                      <div className="mt-2 flex flex-wrap items-center gap-4 text-sm text-neutral-400">
-                        <div className="flex items-center gap-2">
-                          <Building2 className="h-4 w-4" />
-                          {job.company}
+                      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-neutral-400">
+                        <div className="flex items-center gap-2 min-w-0">
+                          <Building2 className="h-4 w-4 shrink-0" />
+                          <span className="break-words">{job.company}</span>
                         </div>
 
-                        <div className="flex items-center gap-2">
-                          <Briefcase className="h-4 w-4" />
-                          {job.type}
+                        <div className="flex items-center gap-2 min-w-0">
+                          <Briefcase className="h-4 w-4 shrink-0" />
+                          <span className="break-words">{job.type}</span>
                         </div>
                       </div>
 
-                      <div className="mt-3 flex items-center gap-2 text-sm text-neutral-400">
-                        <MapPin className="h-4 w-4" />
-                        {job.location}
+                      <div className="mt-3 flex items-start gap-2 text-sm text-neutral-400">
+                        <MapPin className="h-4 w-4 shrink-0 mt-0.5" />
+                        <span className="break-words">{job.location}</span>
                       </div>
 
                       <div className="mt-4 inline-flex rounded-full border border-cyan-500/20 bg-cyan-500/10 px-3 py-1 text-xs font-medium text-cyan-400">

@@ -104,9 +104,19 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
-    if (ref.current) {
-      setHeight(ref.current.getBoundingClientRect().height);
-    }
+    if (!ref.current) return;
+
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        setHeight(entry.contentRect.height);
+      }
+    });
+
+    resizeObserver.observe(ref.current);
+
+    return () => {
+      resizeObserver.disconnect();
+    };
   }, [data]);
 
   const { scrollYProgress } = useScroll({
@@ -114,7 +124,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     offset: ["start 90%", "end 20%"],
   });
 
-  const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
+  const heightTransform = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
@@ -156,7 +166,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             </div>
 
             {/* Content & Mobile Date Wrapper */}
-            <div className="relative pl-10 pr-4 md:pl-0 w-full flex flex-col items-start">
+            <div className="relative pl-10 pr-4 md:pl-0 w-full md:flex-1 flex flex-col items-start">
               {/* Mobile Date */}
               <div className="mb-4 block md:hidden">
                 <h3 className="text-lg font-bold text-neutral-500">

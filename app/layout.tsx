@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { FlickeringGrid } from "@/components/ui/flickering-grid";
-import { LightRays } from "@/components/ui/light-rays";
-import PlasmaWave from "@/components/ui/plasmawave";
 import { ThemeProvider } from "./theme-provider";
 import SoftAurora from "@/components/ui/soft-aurora";
 import { ScrollProgress } from "@/components/ui/scroll-progress";
@@ -33,6 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
     <html
       lang="en"
       className={cn(
@@ -45,13 +43,14 @@ export default function RootLayout({
       )}
       suppressHydrationWarning
     >
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        enableSystem
-        disableTransitionOnChange
-      >
-        <body className="min-h-full flex flex-col scroll-smooth">
+
+      <body className="min-h-full flex flex-col scroll-smooth">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
           <div className="fixed w-full inset-0 -z-10">
             <SoftAurora
               speed={0.6}
@@ -70,11 +69,11 @@ export default function RootLayout({
               mouseInfluence={0.25}
             />
           </div>
-          {/* <ScrollProgress /> */}
+          <ScrollProgress />
           {children}
           <Footer />
-        </body>
-      </ThemeProvider>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

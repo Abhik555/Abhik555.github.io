@@ -185,7 +185,7 @@ export const MobileNavHeader = ({
   return (
     <div
       className={cn(
-        "flex w-full flex-row items-center justify-between px-4",
+        "flex w-full flex-row items-center justify-between px-5",
         className,
       )}
     >
@@ -237,7 +237,7 @@ export const NavbarLogo = () => {
   return (
     <a
       href="#top"
-      className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+      className="relative z-20 flex items-center py-1 text-sm font-normal text-black"
     >
       <Image
         src={logopic}
@@ -245,10 +245,8 @@ export const NavbarLogo = () => {
         style={{ filter: 'invert(100%)' }} 
         width={200}
         height={200}
-        // width={30}
-        // height={30}
+        className="w-32 sm:w-40 md:w-48 h-auto object-contain"
       />
-      {/* <span className="font-medium text-black dark:text-white">Abhik Ghosh</span> */}
     </a>
   );
 };

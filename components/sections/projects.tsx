@@ -1,50 +1,3 @@
-// "use client"
-// import { Radio } from "lucide-react";
-// import { TextReveal } from "../ui/text-reveal";
-// import { DiaTextReveal } from "../ui/dia-text-reveal";
-// import { ProjectCard } from "../ui/project-card";
-// import { motion, useScroll, useTransform } from "framer-motion";
-
-// export default function ProjectsSection() {
-//   const { scrollY } = useScroll();
-
-//   const opacity = useTransform(scrollY, [0, 500], [1, 0]);
-//   const y = useTransform(scrollY, [0, 500], [0, 100]);
-
-//   return (
-//     // <motion.section
-//     //   style={{ opacity, y }}
-//     //   className="min-h-screen flex items-center justify-center"
-//     // >
-//     <section>
-//       <div className="flex flex-col items-center">
-//         <div
-//           className="flex flex-col items-center text-center mb-4"
-//         >
-//           <h1 className="text-center text-3xl font-semibold tracking-tight md:text-4xl">
-//             <DiaTextReveal
-//               repeat
-//               repeatDelay={0.4}
-//               text={["Projects"]}
-//               colors={["#1e40af", "#2563eb", "#0891b2", "#38bdf8"]}
-//             />
-//           </h1>
-//         </div>
-//         <p className="text-sm md:text-base font-medium text-slate-300/90 tracking-wide pb-4 text-center">
-//           What I've Built
-//         </p>
-//         <div className="flex flex-row p-3">
-//           <ProjectCard />
-//           <ProjectCard />
-//           <ProjectCard />
-//           <ProjectCard />
-//           <ProjectCard />
-//         </div>
-//       </div>
-//     </section>
-//     // </motion.section>
-//   );
-// }
 "use client";
 
 import Image from "next/image";
@@ -162,7 +115,6 @@ export default function ProjectsSection() {
                   <div className="flex-1">
                     <h3
                       className="
-                        line-clamp-2
                         text-lg
                         font-semibold
                         text-white
@@ -174,7 +126,6 @@ export default function ProjectsSection() {
                     <p
                       className="
                         mt-3
-                        line-clamp-3
                         text-sm
                         leading-relaxed
                         text-neutral-400
