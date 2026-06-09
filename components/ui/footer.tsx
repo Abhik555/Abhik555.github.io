@@ -32,7 +32,8 @@ export default function Footer() {
 
         {/* Tagline */}
         <p className="mt-2 text-sm text-neutral-400">
-          AI Engineer • Mobile Developer
+          AI Engineer • Mobile Developer •
+          +91 8150059228
         </p>
 
         {/* Social Links */}
@@ -106,7 +107,7 @@ export default function Footer() {
           </p>
 
           <p className="text-xs text-neutral-600">
-            © {year} Abhik Ghosh. All rights reserved.
+            © {year} Abhik Ghosh.
           </p>
         </div>
       </div>
