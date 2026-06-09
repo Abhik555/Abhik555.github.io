@@ -165,11 +165,12 @@ export default function HeroSection() {
               max-w-5xl
               pt-4
               text-center
-              text-[24px]
+              text-lg
               font-light
               leading-[1.35]
               tracking-[-0.02em]
               text-slate-300/95
+              sm:text-[24px]
               md:text-[30px]
             "
           >
@@ -183,11 +184,11 @@ export default function HeroSection() {
         <div className="relative mt-14 w-full max-w-6xl overflow-hidden">
           {/* Left Fade */}
 
-          <div className="pointer-events-none absolute left-0 top-0 z-20 h-full w-32 bg-gradient-to-r from-background to-transparent" />
+          <div className="pointer-events-none absolute left-0 top-0 z-20 h-full w-12 bg-gradient-to-r from-background to-transparent md:w-32" />
 
           {/* Right Fade */}
 
-          <div className="pointer-events-none absolute right-0 top-0 z-20 h-full w-32 bg-gradient-to-l from-background to-transparent" />
+          <div className="pointer-events-none absolute right-0 top-0 z-20 h-full w-12 bg-gradient-to-l from-background to-transparent md:w-32" />
 
           <motion.div
             className="flex gap-4"

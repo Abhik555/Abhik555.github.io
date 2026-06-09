@@ -80,7 +80,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:your@email.com"
+            href="mailto:abhikghosh.dev@gmail.com"
             aria-label="Email"
             className="
               rounded-full

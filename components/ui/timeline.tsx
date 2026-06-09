@@ -135,8 +135,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start py-8 md:py-12 md:gap-10"
+            className="relative flex flex-col md:flex-row justify-start py-8 md:py-12 md:gap-10"
           >
+            {/* Mobile dot (non-sticky) */}
+            <div className="absolute left-[6px] top-[40px] z-40 flex h-4 w-4 items-center justify-center rounded-full border border-cyan-400 bg-neutral-950 md:hidden">
+              <div className="h-2 w-2 rounded-full bg-cyan-400" />
+            </div>
+
             {/* Left Side Date */}
             <div className="sticky top-24 z-40 hidden md:block w-52 shrink-0 self-start">
               <div className="relative flex items-center">
@@ -150,16 +155,17 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               </div>
             </div>
 
-            {/* Mobile Date */}
-            <div className="mb-4 block md:hidden">
-              <h3 className="text-lg font-bold text-neutral-500">
-                {item.title}
-              </h3>
-            </div>
-
-            {/* Content */}
-            <div className="flex w-full justify-center pl-10 md:pl-0">
-              {item.content}
+            {/* Content & Mobile Date Wrapper */}
+            <div className="relative pl-10 pr-4 md:pl-0 w-full flex flex-col items-start">
+              {/* Mobile Date */}
+              <div className="mb-4 block md:hidden">
+                <h3 className="text-lg font-bold text-neutral-500">
+                  {item.title}
+                </h3>
+              </div>
+              <div className="w-full">
+                {item.content}
+              </div>
             </div>
           </div>
         ))}

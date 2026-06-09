@@ -126,6 +126,7 @@
 // }
 "use client";
 
+import { useState } from "react";
 import CertificateSection from "@/components/sections/certificates";
 import ContactSection from "@/components/sections/contact";
 import ExperianceSection from "@/components/sections/experiance";
@@ -138,6 +139,10 @@ import {
   NavbarLogo,
   NavBody,
   NavItems,
+  MobileNav,
+  MobileNavHeader,
+  MobileNavMenu,
+  MobileNavToggle,
 } from "@/components/ui/resizable-navbar";
 
 import { motion } from "framer-motion";
@@ -158,6 +163,7 @@ const sectionAnimation = {
 };
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
   const navItems = [
     {
       name: "Projects",
@@ -185,6 +191,35 @@ export default function Home() {
           <NavItems items={navItems} />
           <NavbarButton href="https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/cv.pdf" variant="primary">Download CV</NavbarButton>
         </NavBody>
+
+        <MobileNav>
+          <MobileNavHeader>
+            <NavbarLogo />
+            <MobileNavToggle isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
+          </MobileNavHeader>
+          <MobileNavMenu isOpen={isOpen} onClose={() => setIsOpen(false)}>
+            <div className="flex flex-col gap-4 w-full px-2">
+              {navItems.map((item, idx) => (
+                <a
+                  key={`mobile-link-${idx}`}
+                  href={item.link}
+                  onClick={() => setIsOpen(false)}
+                  className="text-neutral-600 dark:text-neutral-300 font-medium text-lg hover:text-cyan-400 transition-colors"
+                >
+                  {item.name}
+                </a>
+              ))}
+              <NavbarButton
+                href="https://raw.githubusercontent.com/Abhik555/datarepo/refs/heads/main/cv.pdf"
+                variant="primary"
+                className="w-full text-center mt-2"
+                onClick={() => setIsOpen(false)}
+              >
+                Download CV
+              </NavbarButton>
+            </div>
+          </MobileNavMenu>
+        </MobileNav>
       </Navbar>
 
       <div id="top" />

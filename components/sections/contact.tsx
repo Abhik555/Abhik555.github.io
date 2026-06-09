@@ -20,7 +20,7 @@ export default function ContactSection() {
         {/* Heading */}
 
         <div className="mb-16 text-center">
-          <h2 className="text-4xl font-semibold tracking-tight md:text-6xl">
+          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl md:text-6xl">
             <DiaTextReveal
               repeat
               repeatDelay={0.4}
@@ -52,8 +52,10 @@ export default function ContactSection() {
               border
               border-white/5
               bg-neutral-950/90
-              px-8
-              py-14
+              px-5
+              py-10
+              sm:px-8
+              sm:py-14
               md:px-14
             "
           >

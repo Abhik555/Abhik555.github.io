@@ -185,7 +185,7 @@ export const MobileNavHeader = ({
   return (
     <div
       className={cn(
-        "flex w-full flex-row items-center justify-between",
+        "flex w-full flex-row items-center justify-between px-4",
         className,
       )}
     >
@@ -227,9 +227,9 @@ export const MobileNavToggle = ({
   onClick: () => void;
 }) => {
   return isOpen ? (
-    <IconX className="text-black dark:text-white" onClick={onClick} />
+    <IconX className="text-black dark:text-white cursor-pointer" onClick={onClick} />
   ) : (
-    <IconMenu2 className="text-black dark:text-white" onClick={onClick} />
+    <IconMenu2 className="text-black dark:text-white cursor-pointer" onClick={onClick} />
   );
 };
 
